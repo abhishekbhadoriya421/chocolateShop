@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.customPackage{
+    margin-top: 10px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(245, 188, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customCount{
+    width: 60%; 
+    display: flex;
+    justify-content: space-between;  
+}
+.customCount p{
+    font-size: 2rem;
+    color: white;
+}
+
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0px 50px 0px;
+}
+
+.chocolateContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+}
+
+.chocolateItem{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px black;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.chocolateItem:hover{
+    transform: scale(1.04);
+}
+
+.image{
+    width: 90%;
+    height: 55%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.image img{
+    width: 100%;
+    height: 80%;
+}
+
+.details{
+    display:flex ;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+#buyItem{
+    width: 90%;
+    margin: 0% 5%;
+    height: 18%;
+    border-radius: 6px;
+    font-size: 1.3rem;
+    border: 2px solid rgb(159, 11, 1);
+    color: rgb(159, 11, 1);
+    cursor: pointer;
+}
+
+/* media query */
+
+@media only screen and (max-width: 600px) {
+    .customCount p{
+        font-size: 1.4rem;
+    }
+    .heading{
+        font-size: 1.5rem;
+        margin: 10px 0px 30px 0px;
+    }
+}
